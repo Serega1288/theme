@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../fress-blog-netlify/.idea/fress-blog-netlify.iml" filepath="$PROJECT_DIR$/../../fress-blog-netlify/.idea/fress-blog-netlify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../frontend/.idea/gatsby.iml" filepath="$PROJECT_DIR$/../frontend/.idea/gatsby.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/theme.iml" filepath="$PROJECT_DIR$/.idea/theme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../victoria-soprano/.idea/victoria-soprano.iml" filepath="$PROJECT_DIR$/../victoria-soprano/.idea/victoria-soprano.iml" />
+    </modules>
+  </component>
+</project>
