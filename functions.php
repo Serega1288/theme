@@ -13,6 +13,17 @@ add_filter( 'register_post_type_args', function( $args, $post_type ) {
 }, 10, 2 );
 
 
+add_filter( 'register_taxonomy_args', function( $args, $taxonomy ) {
+    if ( 'product_cat' === $taxonomy ) {
+        $args['show_in_graphql'] = true;
+        $args['graphql_single_name'] = 'productCategory';
+        $args['graphql_plural_name'] = 'productCategories';
+    }
+    return $args;
+}, 10, 2 );
+
+
+
 
 acf_add_options_page(array(
     'page_title' 	=> 'Налаштування теми',
