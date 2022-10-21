@@ -4,8 +4,8 @@ add_filter( 'register_post_type_args', function( $args, $post_type ) {
     // Change this to the post type you are adding support for
     if ( 'product' === $post_type ) {
         $args['show_in_graphql'] = true;
-        $args['graphql_single_name'] = 'product';
-        $args['graphql_plural_name'] = 'products';
+        $args['graphql_single_name'] = 'productD';
+        $args['graphql_plural_name'] = 'productsD';
     }
 
     return $args;
